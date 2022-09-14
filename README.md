@@ -10,3 +10,5 @@ Kemudian buka folder clonenya, dan install requirement.txt dengan menggunakan si
 
     pip install -r requirements.txt
 Kemudian ubah settingan yang ada didalam file main.py sesuai settingan webcam dan kebutuhan lainnya
+
+![Screeshot](https://github.com/nandaeka02/simple-facedetection/blob/main/Screenshot.png)
