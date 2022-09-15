@@ -1,6 +1,5 @@
-from email.mime import image
+# Untuk import library opencv
 import cv2
-# import numpy as np
 
 # Untuk mengimport module pengenalan wajah
 faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
@@ -8,7 +7,7 @@ faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 # Untuk inisialisasi webcam, disesuaikan dengan webcam setiap laptop
 cap = cv2.VideoCapture(2, cv2.CAP_DSHOW)
 
-
+# Untuk melakukan perulangan secara terus-menerus
 while True:
     # Untuk mendapatkan frame dan status webcam
     ret, frame = cap.read()
